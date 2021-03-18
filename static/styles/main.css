@@ -88,11 +88,6 @@ body {
     border-radius: 20px;
 }
 
-.tmlcard img {
-    height: 100%;
-    margin-left: -50%;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -112,6 +107,8 @@ body {
 .centeredText {
     margin: 8% auto;
     text-align: center;
+    font-size: 2vw;
+    padding: 10px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -153,5 +150,8 @@ body {
     }
     .timeline {
         background-image: url(/static/images/bgLightDesk.jpg);
+    }
+    .centeredText {
+        font-size: 3vh;
     }
 }

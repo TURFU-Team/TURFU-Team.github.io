@@ -102,6 +102,9 @@ nav {
 .slide5 {
   background: url(/static/images/Carousel/Projet4.png) center/cover;
 }
+.slide6 {
+  background: url(/static/images/Carousel/projet404.png) center/cover;
+}
 .cardhover {
   color: white;
   background: #009ba3c9;

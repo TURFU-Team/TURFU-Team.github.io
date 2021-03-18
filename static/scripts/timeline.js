@@ -188,7 +188,7 @@ $(function () {
       footerExpand = false;
     } else {
       $("#footer").css({
-        top: "10%",
+        top: "9%",
         bottom: "0",
       });
       footerExpand = true;

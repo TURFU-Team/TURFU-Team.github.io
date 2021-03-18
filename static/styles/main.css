@@ -157,4 +157,7 @@ body {
   .centeredText {
     font-size: 3vh;
   }
+  .timeline a {
+    font-size: 1.4rem;
+  }
 }

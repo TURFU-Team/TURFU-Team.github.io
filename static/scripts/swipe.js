@@ -38,7 +38,7 @@
     settings = {
       // Ratio of distance over target finger must travel to be
       // considered a swipe.
-      thresholdMob: 0.1,
+      thresholdMob: 0.05,
       thresholdDesk: 0.1,
 
       threshold: 0.1,
@@ -64,7 +64,7 @@
       settings.threshold = settings.thresholdMob;
       settings.sensitivity = settings.sensitivityMob;
     }
-    console.log(settings.sensitivity);
+    alert(settings.threshold);
 
     // Copy over some useful properties from the move event
     event = {

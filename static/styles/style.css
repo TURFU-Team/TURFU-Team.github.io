@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
 
 /* Header / Navbar */
 a {
@@ -32,7 +32,7 @@ a {
 .fullImg {
   width: 100%;
   min-height: 100vh;
-  background-image: url(../img/bg.png);
+  background-image: url(../images/bgLightDesk.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -52,7 +52,7 @@ a {
   font-family: "Montserrat", "sans-serif";
 }
 nav {
- z-index: 100;
+  z-index: 100;
 }
 /***********************CAROUSEL*********************/
 .titre2 {
@@ -127,7 +127,7 @@ nav {
   opacity: 1;
 }
 /***************************BLOC ROLES*********************************/
-.bloc3{
+.bloc3 {
   height: 100vh;
 }
 .cartes h3 {
@@ -144,9 +144,9 @@ nav {
 .card:hover {
   transform: scale(1.02);
 }
-.card-body h4{
-    text-align: center;
-    margin: 10px 0 20px 0;
+.card-body h4 {
+  text-align: center;
+  margin: 10px 0 20px 0;
 }
 .descriptif {
   display: flex;
@@ -163,23 +163,23 @@ nav {
   display: none;
 }
 /**Buttons**/
-.btnb{
+.btnb {
   display: block;
-  margin: auto;  
+  margin: auto;
   padding: 10px;
   margin-top: 40px;
-  background-color: #009AA3;
+  background-color: #009aa3;
   color: white;
   border-radius: 30px;
   border: none;
   font-family: "Montserrat", "sans-serif";
   transition: 0.4s;
 }
-.btnb2{
+.btnb2 {
   margin-top: 57px;
 }
 .btnb:hover {
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 /* footer */
 
@@ -227,10 +227,13 @@ footer a {
 .reseaux {
   width: 25px;
 }
+.navbar-nav {
+  margin-left: 150px;
+}
 
 @media only screen and (min-width: 768px) {
   .fullImg {
-    background-image: url(../img/bg.png);
+    background-image: url(../images/bgLightDesk.jpg);
   }
 }
 @media screen and (max-width: 768px) {

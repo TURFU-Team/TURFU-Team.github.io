@@ -87,6 +87,9 @@ nav {
   height: 300px;
   overflow: hidden;
 }
+.slide0 {
+  background: url(/static/images/Carousel/portfoliogeoffrey.jpg) center/cover;
+}
 .slide1 {
   background: url(/static/images/Carousel/montagne.PNG) center/cover;
 }

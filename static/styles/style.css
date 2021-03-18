@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
 
 /* Header / Navbar */
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -28,7 +31,13 @@ a {
 .navbar-nav a:hover {
   text-decoration: underline;
 }
-
+.navbar-nav {
+  margin: 0 auto;
+}
+.nav-item {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .fullImg {
   width: 100%;
   min-height: 100vh;
@@ -230,10 +239,13 @@ footer a {
 .reseaux {
   width: 25px;
 }
-.navbar-nav {
-  margin-left: 150px;
-}
 
+@media only screen and (max-width: 1080px) {
+  .nav-item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .fullImg {
     background-image: url(../images/bgLightDesk.jpg);

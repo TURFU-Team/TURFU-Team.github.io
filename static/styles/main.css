@@ -59,10 +59,10 @@ body {
 }
 .timestamp h2 {
     position: absolute;
-    left: 75%;
-    top: -22px;
-    width: 200%;
-    text-align: center;
+    left: 105%;
+    top: -7px;
+    width: 200px;
+    text-align: left;
     letter-spacing: -1px;
     font-size: 20px;
 }
@@ -76,7 +76,7 @@ body {
     transform-origin: left
 }
 
-.card {
+.tmlcard {
     position: relative;
     overflow: hidden;
     top: calc(50% - 25vw);
@@ -86,7 +86,7 @@ body {
     border-radius: 20px;
 }
 
-.card img {
+.tmlcard img {
     height: 100%;
     margin-left: -50%;
 }
@@ -129,10 +129,11 @@ body {
         border-radius: 30px;
     }
     .timestamp h2 {
-        top: -55%;
-        left: -150%;
-        width: 400%;
+        top: -50px;
+        left: -300%;
+        width: 700%;
         font-size: 30px;
+        text-align: center;
     }
     .screen {
         width: 40%;
@@ -141,7 +142,7 @@ body {
         left: unset;
         transform-origin: bottom;
     }
-    .card {
+    .tmlcard {
         position: absolute;
         top: 10%;
         left: calc(50% - 22vh);

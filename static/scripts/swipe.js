@@ -38,10 +38,10 @@
     settings = {
       // Ratio of distance over target finger must travel to be
       // considered a swipe.
-      threshold: 0.6,
+      threshold: 1,
       // Faster fingers can travel shorter distances to be considered
       // swipes. 'sensitivity' controls how much. Bigger is shorter.
-      sensitivity: 5,
+      sensitivity: 2,
     };
 
   function moveend(e) {

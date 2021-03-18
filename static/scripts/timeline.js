@@ -155,6 +155,7 @@ function orientHandler(){
 
 
 $(function() {
+    let searchParams = new URLSearchParams(window.location.search); //récupère les paramètres passés à la page
     let footerExpand = false;
     $('#footer').css('top', '95%');
     if(window.innerHeight > window.innerWidth) {
@@ -167,6 +168,9 @@ $(function() {
         let tml = new Timeline($(this).index());
         allTimeline[$(this).index()] = tml;
     });
+    if(searchParams.has('pos')) {
+        allTimeline[1].moveTo(searchParams.get('pos'));
+    }
     $(window).on({
         orientationchange: orientHandler,
         resize: orientHandler

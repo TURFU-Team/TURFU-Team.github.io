@@ -39,7 +39,7 @@
       // Ratio of distance over target finger must travel to be
       // considered a swipe.
       thresholdMob: 0.1,
-      thresholdDesk: .1,
+      thresholdDesk: 0.1,
 
       threshold: 0.1,
       // Faster fingers can travel shorter distances to be considered

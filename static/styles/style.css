@@ -290,6 +290,10 @@ footer a {
   .foot {
     margin: 0 auto;
   }
+  .logo {
+    height: 50px;
+    margin: 0 auto;
+  }
 }
 
 /* Animations réseaux sociaux */

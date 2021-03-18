@@ -62,7 +62,7 @@
     }
     else {
       settings.threshold = settings.thresholdMob;
-      settings.sensitivity = settings.sensitivityMob
+      settings.sensitivity = settings.sensitivityMob;
     }
     console.log(settings.sensitivity);
 

@@ -39,13 +39,13 @@
       // Ratio of distance over target finger must travel to be
       // considered a swipe.
       thresholdMob: 0.1,
-      thresholdDesk: 3,
+      thresholdDesk: .4,
 
       threshold: 0.1,
       // Faster fingers can travel shorter distances to be considered
       // swipes. 'sensitivity' controls how much. Bigger is shorter.
       sensitivityMob: 6,
-      sensitivityDesk: 12,
+      sensitivityDesk: 5,
 
       sensitivity: 6
     };
@@ -56,14 +56,15 @@
     w = e.currentTarget.offsetWidth;
     h = e.currentTarget.offsetHeight;
 
-    if(window.innerHeight > window.innerWidth && window.innerWidth > 768) {
+    if(window.innerHeight < window.innerWidth && window.innerWidth > 768) {
+      settings.sensitivity = settings.sensitivityDesk;
+      settings.threshold = settings.thresholdDesk;
+    }
+    else {
       settings.threshold = settings.thresholdMob;
       settings.sensitivity = settings.sensitivityMob
     }
-    else {
-      settings.threshold = settings.thresholdDesk;
-      settings.sensitivity = settings.sensitivityDesk;
-    }
+    console.log(settings.sensitivity);
 
     // Copy over some useful properties from the move event
     event = {

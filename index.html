@@ -16,120 +16,116 @@
 </head>
 
 <body>
-    <div class="fullImg">
+    <br>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body stickyTop">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img class="logo" src="/static/images/social/logoo.png"
+                    alt="Logo"></a>
+            <button class="navbar-toggler animate__animated animate__shakeY" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold navList">
+                    <li class="navList px-2">
+                        <a style="color:rgb(62,179,185) ;" class="nav-link navList" href="./timeline.html">Développeur Web</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a style="color:rgb(62,179,185) ;" class="nav-link" href="./timeline.html?pos=200">Designer Web</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a style="color:rgb(62,179,185) ;" class="nav-link " href="./timeline.html?pos=400">Chef de Projet </a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a style="color:rgb(62,179,185) ;" class="nav-link " href="./timeline.html?pos=600">Graphiste</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn btn-outline-dark fw-bold navList" type="submit" onclick="myFunction()">Mode
+                        Sombre</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------------------------------------------------------------------------------------------------->
+    <div class="container txtindex ">
+        <h1 class=" animate__animated animate__fadeInLeft">Bienvenue sur le site portfolio du Campus du Lac</h1>
         <br>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body stickyTop">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img class="logo" src="/static/images/social/logoo.png"
-                        alt="Logo"></a>
-                <button class="navbar-toggler animate__animated animate__shakeY" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold navList">
-                        <li class="navList px-2">
-                            <a style="color:rgb(62,179,185) ;" class="nav-link navList" href="./timeline.html">Développeur Web</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a style="color:rgb(62,179,185) ;" class="nav-link" href="./timeline.html?pos=200">Designer Web</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a style="color:rgb(62,179,185) ;" class="nav-link " href="./timeline.html?pos=400">Chef de Projet </a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a style="color:rgb(62,179,185) ;" class="nav-link " href="./timeline.html?pos=600">Graphiste</a>
-                        </li>
+        <br>
+        <h2 class=" animate__animated animate__fadeInLeft">Ici vous pourrez découvrir les projets des<br>étudiants
+            de chacune de nos promotions digitales</h2>
+    </div>
 
-
-
-                    </ul>
-                    <form class="d-flex">
-
-                        <button class="btn btn-outline-dark fw-bold navList" type="submit" onclick="myFunction()">Mode
-                            Sombre</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-        <!---------------------------------------------------------------------------------------------------------->
-        <div class="container txtindex ">
-            <h1 class=" animate__animated animate__fadeInLeft">Bienvenue sur le site portfolio du Campus du Lac</h1>
-            <br>
-            <br>
-            <h2 class=" animate__animated animate__fadeInLeft">Ici vous pourrez découvrir les projets des<br>étudiants
-                de chacune de nos promotions digitales</h2>
+    <!---------------------------------Carousel-------------------------------------------->
+    <div class="part2">
+        <div class="titre2">
+            <h3>Les derniers projets...</h3>
         </div>
-
-        <!---------------------------------Carousel-------------------------------------------->
-        <div class="part2">
-            <div class="titre2">
-                <h3>Les derniers projets...</h3>
-            </div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide slide1">
-                        <div class="cardhover">
-                            <div class="cardhovertxt">
-                                <p>La montagne</p>
-                                <p>Site de news réalisé en formation en HTML/CSS</p>
-                                <p>Joey Van Stokeren</p>
-                                <a href="https://github.com/jovsn983/La-Montagne" target="_blank">Voir le projet</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide2">
-                        <div class="cardhover">
-                            <div class="cardhovertxt">
-                                <p>Eurosport</p>
-                                <p>Réplique du site Eurosport fait en HTML/CSS
-                                </p>
-                                <p>Geoffrey Miard</p>
-                                <a href="https://gitlab.com/geoffreymiard/eurosportfantasy" target="_blank">Voir le
-                                    projet</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide3">
-                        <div class="cardhover">
-                            <div class="cardhovertxt">
-                                <p>West Side Stories</p>
-                                <p>L'histoire du rap de la Côte Ouest américaine. Fait en HTML/CSS
-                                </p>
-                                <p>Joey Van Stokeren</p>
-                                <a href="https://github.com/jovsn983/WestSideStories" target="_blank">Voir le projet</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide4">
-                        <div class="cardhover">
-                            <div class="cardhovertxt">
-                                <p>Paradise Island</p>
-                                <p>Maquette d'un site de destinations<br>pour voyager
-                                </p>
-                                <p>Lolita Blazquez</p>
-                                <a href="">Voir le projet</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide slide5">
-                        <div class="cardhover">
-                            <div class="cardhovertxt">
-                                <p>Anais Nails</p>
-                                <p>Maquette d'un site d'une entreprise de pose d'ongles
-                                </p>
-                                <p>Lolita Blazquez</p>
-                                <a href="">Voir le projet</a>
-                            </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="cardhover">
+                        <div class="cardhovertxt">
+                            <p>La montagne</p>
+                            <p>Site de news réalisé en formation en HTML/CSS</p>
+                            <p>Joey Van Stokeren</p>
+                            <a href="https://github.com/jovsn983/La-Montagne" target="_blank">Voir le projet</a>
                         </div>
                     </div>
                 </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-slide slide2">
+                    <div class="cardhover">
+                        <div class="cardhovertxt">
+                            <p>Eurosport</p>
+                            <p>Réplique du site Eurosport fait en HTML/CSS
+                            </p>
+                            <p>Geoffrey Miard</p>
+                            <a href="https://gitlab.com/geoffreymiard/eurosportfantasy" target="_blank">Voir le
+                                projet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide3">
+                    <div class="cardhover">
+                        <div class="cardhovertxt">
+                            <p>West Side Stories</p>
+                            <p>L'histoire du rap de la Côte Ouest américaine. Fait en HTML/CSS
+                            </p>
+                            <p>Joey Van Stokeren</p>
+                            <a href="https://github.com/jovsn983/WestSideStories" target="_blank">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide4">
+                    <div class="cardhover">
+                        <div class="cardhovertxt">
+                            <p>Paradise Island</p>
+                            <p>Maquette d'un site de destinations<br>pour voyager
+                            </p>
+                            <p>Lolita Blazquez</p>
+                            <a href="">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide5">
+                    <div class="cardhover">
+                        <div class="cardhovertxt">
+                            <p>Anais Nails</p>
+                            <p>Maquette d'un site d'une entreprise de pose d'ongles
+                            </p>
+                            <p>Lolita Blazquez</p>
+                            <a href="">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
+    </div>
         <!-------------------------------------------------Descriptif-------------------------------------------------------------------------------->
         <div class="cartes">
             <h3 data-aos="fade-down">Les différentes formations a l'E-Cod</h3>

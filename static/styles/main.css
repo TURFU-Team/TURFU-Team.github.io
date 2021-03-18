@@ -103,7 +103,7 @@ body {
     color: rgb(33, 37, 41);
 }
 
-.card:hover .overlay {
+.tmlcard:hover .overlay {
     opacity: 1;
 }
 

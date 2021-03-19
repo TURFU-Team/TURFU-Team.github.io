@@ -114,6 +114,9 @@ body {
   margin-top: 5px;
   font-size: 0.9rem;
 }
+nav a {
+  cursor: pointer;
+}
 @media only screen and (min-width: 768px) {
   .segment {
     width: 1%;

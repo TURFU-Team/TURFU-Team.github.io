@@ -47,7 +47,7 @@
       sensitivityMob: 6,
       sensitivityDesk: 4,
 
-      sensitivity: 6
+      sensitivity: 6,
     };
 
   function moveend(e) {
@@ -56,11 +56,10 @@
     w = e.currentTarget.offsetWidth;
     h = e.currentTarget.offsetHeight;
 
-    if(window.innerHeight < window.innerWidth && window.innerWidth > 768) {
+    if (window.innerHeight < window.innerWidth && window.innerWidth > 768) {
       settings.sensitivity = settings.sensitivityDesk;
       settings.threshold = settings.thresholdDesk;
-    }
-    else {
+    } else {
       settings.threshold = settings.thresholdMob;
       settings.sensitivity = settings.sensitivityMob;
     }
